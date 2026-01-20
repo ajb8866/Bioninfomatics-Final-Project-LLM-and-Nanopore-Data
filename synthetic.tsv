@@ -1,0 +1,11 @@
+ref_id	pos	ref_kmer	GMM_logit_pvalue	GMM_logit_log_odds	KS_dwell_pvalue	KS_intensity_pvalue	cluster_counts_control	cluster_counts_test
+Transcript_A	100	AGGAC	0.4501	0.12	0.670	0.550	50:50	48:52
+Transcript_A	101	GGACU	1.25e-18	5.42	1.02e-06	2.31e-12	90:10	20:80
+Transcript_A	102	GACUC	2.10e-15	4.89	5.40e-05	1.12e-09	88:12	25:75
+Transcript_A	103	ACUCG	0.0490	1.10	0.051	0.030	60:40	55:45
+Transcript_A	104	CUCGG	0.8900	0.05	0.920	0.880	50:50	51:49
+Transcript_B	500	UUAGC	0.0004	2.30	0.012	0.005	70:30	40:60
+Transcript_B	501	UAGCA	0.3200	0.45	0.400	0.350	55:45	52:48
+Transcript_C	25	DRACH	1.10e-05	3.15	0.002	0.001	80:20	30:70
+Transcript_C	26	RACHG	0.0021	1.98	0.045	0.030	75:25	60:40
+Transcript_D	999	AAAAA	0.9999	0.00	1.000	1.000	50:50	50:50

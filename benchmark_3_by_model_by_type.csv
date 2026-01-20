@@ -1,0 +1,85 @@
+Model,Type,Category,N,Accuracy,Format_Adherence,Mean_Confidence
+DeepSeek-R1-32B,BASE,Site/Feature Annotation,1,1.0,1.0,0.75
+DeepSeek-R1-32B,BOOLEAN,High-Confidence Predictions,1,1.0,1.0,1.0
+DeepSeek-R1-32B,BOOLEAN,Site/Feature Annotation,1,1.0,1.0,0.9
+DeepSeek-R1-32B,BOOLEAN,Statistical Metrics & Significance,1,1.0,1.0,0.9
+DeepSeek-R1-32B,COUNT_AND_SITE_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+DeepSeek-R1-32B,EXACT MATCH,Directionality & Change,1,0.0,1.0,0.9
+DeepSeek-R1-32B,EXACT MATCH,Statistical Metrics & Significance,2,0.5,1.0,0.95
+DeepSeek-R1-32B,FLOAT,Directionality & Change,1,1.0,1.0,1.0
+DeepSeek-R1-32B,FLOAT,Statistical Metrics & Significance,2,1.0,1.0,0.95
+DeepSeek-R1-32B,INTEGER,High-Confidence Predictions,1,1.0,1.0,0.9
+DeepSeek-R1-32B,INTEGER,Site/Feature Annotation,2,1.0,1.0,1.0
+DeepSeek-R1-32B,INTEGER,Statistical Metrics & Significance,1,1.0,1.0,0.9
+DeepSeek-R1-32B,KEYED_FLOAT_LIST,Directionality & Change,1,0.0,1.0,0.9
+DeepSeek-R1-32B,KEYED_FLOAT_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+DeepSeek-R1-32B,KEYED_MIXED_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+DeepSeek-R1-32B,KEYED_MIXED_LIST,Statistical Metrics & Significance,1,0.0,1.0,0.75
+DeepSeek-R1-32B,LIST,Directionality & Change,1,0.0,1.0,1.0
+DeepSeek-R1-32B,LIST,Site/Feature Annotation,1,1.0,1.0,1.0
+DeepSeek-R1-32B,RANKING,Statistical Metrics & Significance,1,0.0,1.0,0.9
+DeepSeek-R1-32B,RANKING_WITH_SCORES,Derived Metrics,1,0.0,0.0,
+DeepSeek-R1-32B,RATIO,Directionality & Change,1,0.0,1.0,0.9
+DeepSeek-R1-32B,RUN_AND_TREND,Directionality & Change,1,1.0,1.0,0.9
+DeepSeek-R1-32B,SITE_WITH_FLOAT,Coverage & Depth,1,0.0,1.0,0.9
+DeepSeek-R1-32B,SITE_WITH_FLOAT,Derived Metrics,1,0.0,1.0,0.9
+DeepSeek-R1-32B,SITE_WITH_FLOAT,Directionality & Change,1,1.0,1.0,0.9
+DeepSeek-R1-32B,SITE_WITH_FLOAT,Model vs Counts Consistency,1,0.0,1.0,0.9
+DeepSeek-R1-32B,SITE_WITH_KEYED_METRICS,Coverage & Depth,1,0.0,1.0,0.9
+DeepSeek-R1-32B,STRING,Site/Feature Annotation,4,0.75,1.0,0.975
+GPT-OSS-20B,BASE,Site/Feature Annotation,1,1.0,1.0,0.9
+GPT-OSS-20B,BOOLEAN,High-Confidence Predictions,1,1.0,1.0,0.9
+GPT-OSS-20B,BOOLEAN,Site/Feature Annotation,1,0.0,1.0,0.9
+GPT-OSS-20B,BOOLEAN,Statistical Metrics & Significance,1,1.0,1.0,0.9
+GPT-OSS-20B,COUNT_AND_SITE_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+GPT-OSS-20B,EXACT MATCH,Directionality & Change,1,0.0,1.0,0.9
+GPT-OSS-20B,EXACT MATCH,Statistical Metrics & Significance,2,0.5,1.0,0.95
+GPT-OSS-20B,FLOAT,Directionality & Change,1,1.0,1.0,1.0
+GPT-OSS-20B,FLOAT,Statistical Metrics & Significance,2,1.0,1.0,0.95
+GPT-OSS-20B,INTEGER,High-Confidence Predictions,1,1.0,1.0,0.9
+GPT-OSS-20B,INTEGER,Site/Feature Annotation,2,0.5,1.0,1.0
+GPT-OSS-20B,INTEGER,Statistical Metrics & Significance,1,1.0,1.0,0.9
+GPT-OSS-20B,KEYED_FLOAT_LIST,Directionality & Change,1,0.0,1.0,0.9
+GPT-OSS-20B,KEYED_FLOAT_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+GPT-OSS-20B,KEYED_MIXED_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+GPT-OSS-20B,KEYED_MIXED_LIST,Statistical Metrics & Significance,1,0.0,1.0,0.75
+GPT-OSS-20B,LIST,Directionality & Change,1,0.0,1.0,1.0
+GPT-OSS-20B,LIST,Site/Feature Annotation,1,0.0,1.0,1.0
+GPT-OSS-20B,RANKING,Statistical Metrics & Significance,1,0.0,1.0,0.9
+GPT-OSS-20B,RANKING_WITH_SCORES,Derived Metrics,1,0.0,1.0,0.9
+GPT-OSS-20B,RATIO,Directionality & Change,1,0.0,1.0,0.9
+GPT-OSS-20B,RUN_AND_TREND,Directionality & Change,1,1.0,1.0,0.9
+GPT-OSS-20B,SITE_WITH_FLOAT,Coverage & Depth,1,0.0,1.0,0.9
+GPT-OSS-20B,SITE_WITH_FLOAT,Derived Metrics,1,0.0,1.0,0.9
+GPT-OSS-20B,SITE_WITH_FLOAT,Directionality & Change,1,1.0,1.0,0.9
+GPT-OSS-20B,SITE_WITH_FLOAT,Model vs Counts Consistency,1,0.0,1.0,0.9
+GPT-OSS-20B,SITE_WITH_KEYED_METRICS,Coverage & Depth,1,0.0,1.0,0.9
+GPT-OSS-20B,STRING,Site/Feature Annotation,4,0.75,1.0,0.975
+Qwen3-30B,BASE,Site/Feature Annotation,1,1.0,1.0,0.9
+Qwen3-30B,BOOLEAN,High-Confidence Predictions,1,1.0,1.0,0.9
+Qwen3-30B,BOOLEAN,Site/Feature Annotation,1,0.0,1.0,1.0
+Qwen3-30B,BOOLEAN,Statistical Metrics & Significance,1,1.0,1.0,0.9
+Qwen3-30B,COUNT_AND_SITE_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+Qwen3-30B,EXACT MATCH,Directionality & Change,1,0.0,1.0,0.9
+Qwen3-30B,EXACT MATCH,Statistical Metrics & Significance,2,1.0,1.0,0.95
+Qwen3-30B,FLOAT,Directionality & Change,1,1.0,1.0,1.0
+Qwen3-30B,FLOAT,Statistical Metrics & Significance,2,1.0,1.0,0.95
+Qwen3-30B,INTEGER,High-Confidence Predictions,1,1.0,1.0,0.9
+Qwen3-30B,INTEGER,Site/Feature Annotation,2,1.0,1.0,1.0
+Qwen3-30B,INTEGER,Statistical Metrics & Significance,1,1.0,1.0,0.9
+Qwen3-30B,KEYED_FLOAT_LIST,Directionality & Change,1,0.0,1.0,0.9
+Qwen3-30B,KEYED_FLOAT_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+Qwen3-30B,KEYED_MIXED_LIST,High-Confidence Predictions,1,0.0,1.0,0.9
+Qwen3-30B,KEYED_MIXED_LIST,Statistical Metrics & Significance,1,0.0,1.0,0.9
+Qwen3-30B,LIST,Directionality & Change,1,0.0,1.0,1.0
+Qwen3-30B,LIST,Site/Feature Annotation,1,1.0,1.0,1.0
+Qwen3-30B,RANKING,Statistical Metrics & Significance,1,0.0,1.0,0.9
+Qwen3-30B,RANKING_WITH_SCORES,Derived Metrics,1,0.0,1.0,0.9
+Qwen3-30B,RATIO,Directionality & Change,1,0.0,1.0,0.9
+Qwen3-30B,RUN_AND_TREND,Directionality & Change,1,1.0,1.0,0.9
+Qwen3-30B,SITE_WITH_FLOAT,Coverage & Depth,1,1.0,1.0,0.9
+Qwen3-30B,SITE_WITH_FLOAT,Derived Metrics,1,0.0,1.0,0.9
+Qwen3-30B,SITE_WITH_FLOAT,Directionality & Change,1,1.0,1.0,1.0
+Qwen3-30B,SITE_WITH_FLOAT,Model vs Counts Consistency,1,0.0,1.0,0.9
+Qwen3-30B,SITE_WITH_KEYED_METRICS,Coverage & Depth,1,0.0,0.0,
+Qwen3-30B,STRING,Site/Feature Annotation,4,0.75,1.0,1.0

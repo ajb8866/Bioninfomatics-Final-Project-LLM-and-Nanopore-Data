@@ -1,0 +1,21 @@
+question_id,Question,Answer,Type,Category
+0,Which ref_id and pos has the absolute lowest GMM_logit_pvalue in the dataset?,Transcript_A:101,EXACT MATCH,Statistical Metrics & Significance
+1,What is the specific GMM_logit_pvalue for Transcript_A at position 102?,2.10e-15,FLOAT,Statistical Metrics & Significance
+2,How many sites in the dataset have a GMM_logit_pvalue less than 0.05?,6,INTEGER,Statistical Metrics & Significance
+3,Which site is more statistically significant: Transcript_C at position 25 or Transcript_B at position 500?,Transcript_C:25,EXACT MATCH,Statistical Metrics & Significance
+4,Rank the following three sites by significance (most to least): Transcript_A:101 Transcript_C:25 Transcript_B:500.,Transcript_A:101 > Transcript_C:25 > Transcript_B:500,RANKING,Statistical Metrics & Significance
+5,Does Transcript_A have any sites with a p-value > 0.1?,Yes,BOOLEAN,Statistical Metrics & Significance
+6,What is the average GMM_logit_pvalue for the two sites in Transcript_B (round to 3 decimal places)?,0.160,FLOAT,Statistical Metrics & Significance
+7,What is the ref_kmer sequence at Transcript_A position 101?,GGACU,STRING,Site/Feature Annotation
+8,List all positions analyzed for Transcript_A.,100; 101; 102; 103; 104,LIST,Site/Feature Annotation
+9,Which transcript ID contains the k-mer UUAGC?,Transcript_B,STRING,Site/Feature Annotation
+10,Is the k-mer at Transcript_A:102 GACUC or ACUCG?,GACUC,STRING,Site/Feature Annotation
+11,What is the reference k-mer for the site with GMM_logit_pvalue = 0.0490?,ACUCG,STRING,Site/Feature Annotation
+12,Which position in Transcript_C corresponds to the k-mer RACHG?,26,INTEGER,Site/Feature Annotation
+13,Does the dataset contain any results for Transcript_E?,No,BOOLEAN,Site/Feature Annotation
+14,What is the GMM_logit_log_odds for the site at Transcript_B:500?,2.30,FLOAT,Directionality & Change
+15,For Transcript_A:101 what is the ratio of reads in cluster_counts_test?,20:80,RATIO,Directionality & Change
+16,Which sites show a cluster_counts_control of exactly 50:50?,Transcript_A:100; Transcript_A:104; Transcript_D:999,LIST,Directionality & Change
+17,Which transcript shows a site with cluster_counts_test equal to 52:48?,Transcript_B,STRING,Directionality & Change
+18,How many sites have GMM_logit_log_odds between 1.0 and 3.0?,3,INTEGER,High-Confidence Predictions
+19,True or False: All sites with GMM_logit_pvalue < 1e-10 also have GMM_logit_log_odds > 4.0.,True,BOOLEAN,High-Confidence Predictions

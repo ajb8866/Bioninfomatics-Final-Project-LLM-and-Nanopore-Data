@@ -1,0 +1,35 @@
+question_id,Question,Answer,Type,Category
+0,Which ref_id and pos has the absolute lowest GMM_chi2_pvalue in the first 25 rows?,NC_003796.1:893,EXACT MATCH,Statistical Metrics & Significance
+1,What is the specific GMM_chi2_pvalue for NC_003796.1 at position 891 in the first 25 rows?,0.0151172,FLOAT,Statistical Metrics & Significance
+2,How many sites in the first 25 rows have a GMM_chi2_pvalue less than 0.05 ignoring NaNs?,4,INTEGER,Statistical Metrics & Significance
+3,Which site is more statistically significant lower GMM_chi2_pvalue NC_003796.1:893 or NC_003796.1:901?,NC_003796.1:893,EXACT MATCH,Statistical Metrics & Significance
+4,Rank these sites by significance lowest to highest GMM_chi2_pvalue NC_003796.1:893 NC_003796.1:891 NC_003796.1:901.,NC_003796.1:893 > NC_003796.1:891 > NC_003796.1:901,RANKING,Statistical Metrics & Significance
+5,Does NC_003796.1 have any sites in the first 25 rows with GMM_chi2_pvalue greater than 0.1?,Yes,BOOLEAN,Statistical Metrics & Significance
+6,What is the average GMM_chi2_pvalue for NC_003796.1 positions 882 and 883 round to 3 decimals?,0.159,FLOAT,Statistical Metrics & Significance
+7,What is the ref_kmer sequence at NC_003796.1 position 893?,GTCGT,STRING,Site/Feature Annotation
+8,List all positions pos shown for NC_003796.1 in the first 25 rows.,870; 876; 879; 880; 882; 883; 884; 885; 886; 889; 890; 891; 893; 894; 895; 896; 901; 902; 903; 906; 907; 913; 914; 915; 916,LIST,Site/Feature Annotation
+9,Which position corresponds to the ref_kmer CAAGT in the first 25 rows?,901,INTEGER,Site/Feature Annotation
+10,Is the ref_kmer at NC_003796.1:891 ACGTC or ACGCC?,ACGTC,STRING,Site/Feature Annotation
+11,What is the ref_kmer for the site with GMM_chi2_pvalue = 0.0450438 in the first 25 rows?,CAAGT,STRING,Site/Feature Annotation
+12,Which position in the first 25 rows corresponds to the k-mer ACGTG?,876,INTEGER,Site/Feature Annotation
+13,Does the first 25 rows contain any sites with missing NaN GMM_chi2_pvalue?,Yes,BOOLEAN,Site/Feature Annotation
+14,What is the GMM_LOR for the site at NC_003796.1:901?,-0.879,FLOAT,Directionality & Change
+15,For NC_003796.1:893 what is the ratio d37_2_mod:d37_2_unmod?,18:08,RATIO,Directionality & Change
+16,Which sites in the first 25 rows have d37_2_mod equal to d37_2_unmod?,NC_003796.1:913,LIST,Directionality & Change
+17,Which site in the first 25 rows has stmv_a2_mod:stmv_a2_unmod equal to 141:157?,NC_003796.1:883,EXACT MATCH,Directionality & Change
+18,How many sites in the first 25 rows have GMM_LOR between 1.0 and 1.1 inclusive?,3,INTEGER,High-Confidence Predictions
+19,True or False all sites in the first 25 rows with GMM_chi2_pvalue less than 0.02 also have GMM_LOR greater than 1.0.,TRUE,BOOLEAN,High-Confidence Predictions
+20,"Which site (ref_id:pos) has the largest absolute effect size by |GMM_LOR| in the first 25 rows, and what is that value?",NC_003796.1:893 (abs_GMM_LOR=1.078),SITE_WITH_FLOAT,Directionality & Change
+21,"Which site has the largest absolute difference in modified fraction between conditions (stmv_a2 vs d37_2), where modified_fraction = mod/(mod+unmod)?",NC_003796.1:893 (abs_delta_modfrac=0.274799),SITE_WITH_FLOAT,Derived Metrics
+22,Rank all sites by the absolute difference in modified fraction between stmv_a2 and d37_2 (largest to smallest).,NC_003796.1:893(0.274799); NC_003796.1:870(0.258363); NC_003796.1:891(0.255205); NC_003796.1:901(0.212308); NC_003796.1:915(0.209754); NC_003796.1:903(0.204396); NC_003796.1:883(0.180692); NC_003796.1:885(0.158403); NC_003796.1:882(0.150872); NC_003796.1:902(0.135971); NC_003796.1:913(0.129252); NC_003796.1:894(0.128293); NC_003796.1:884(0.126853); NC_003796.1:886(0.126259); NC_003796.1:890(0.118639); NC_003796.1:907(0.112234); NC_003796.1:906(0.105186); NC_003796.1:895(0.103655); NC_003796.1:880(0.085351); NC_003796.1:896(0.080845); NC_003796.1:916(0.064459); NC_003796.1:889(0.047458); NC_003796.1:914(0.010345); NC_003796.1:876(0.006040); NC_003796.1:879(0.002568),RANKING_WITH_SCORES,Derived Metrics
+23,"For each site, compute ln((stmv_a2_mod/stmv_a2_unmod)/(d37_2_mod/d37_2_unmod)) and compare it to GMM_LOR; which site has the largest absolute discrepancy?",NC_003796.1:893 (abs_discrepancy=2.22194),SITE_WITH_FLOAT,Model vs Counts Consistency
+24,Do significant sites (GMM_chi2_pvalue < 0.05) have higher median |GMM_LOR| than non-significant sites? Provide both medians.,sig=1.033500; nonsig=0.492000,KEYED_FLOAT_LIST,High-Confidence Predictions
+25,"What fraction of sites have GMM_LOR > 0, and what fraction have GMM_LOR < 0, among the first 25 rows (excluding missing GMM_LOR)?",gt0=0.523810; lt0=0.476190,KEYED_FLOAT_LIST,Directionality & Change
+26,"Which ref_kmer occurs most frequently in the first 25 rows, and how many times does it occur?",All_unique (max_count=1),STRING,Site/Feature Annotation
+27,Is there enrichment of a particular central base (3rd nucleotide of the 5-mer ref_kmer) among significant sites (p<0.05) versus all sites? Report the most enriched base.,C,BASE,Site/Feature Annotation
+28,"Identify the longest run of consecutive positions (by pos) present in the first 25 rows, and summarize the trend of GMM_LOR across that run.",882-886; trend=mixed,RUN_AND_TREND,Directionality & Change
+29,"Compute total coverage per condition (stmv_a2_mod+stmv_a2_unmod and d37_2_mod+d37_2_unmod). Which site has the largest coverage imbalance ratio max/min, and what is the ratio?",NC_003796.1:880 (ratio=11.96),SITE_WITH_FLOAT,Coverage & Depth
+30,"Among sites with high coverage in both conditions (d37_cov >= median and stmv_cov >= median), which site has the smallest GMM_chi2_pvalue and what is its effect size (GMM_LOR)?",NC_003796.1:893 (p=0.014041; GMM_LOR=1.078),SITE_WITH_KEYED_METRICS,Coverage & Depth
+31,"If you threshold by effect size |GMM_LOR| >= 1, how many sites pass, and what proportion of those are also significant at p < 0.05?",count=3; proportion_sig=1.000,KEYED_MIXED_LIST,High-Confidence Predictions
+32,"Which sites are 'high-confidence candidates' under p < 0.05 AND |GMM_LOR| >= 1, and how many are there?",count=3; sites=NC_003796.1:893; NC_003796.1:891; NC_003796.1:870,COUNT_AND_SITE_LIST,High-Confidence Predictions
+33,"Using only the first 25 rows, are p-values more strongly associated with effect size (|GMM_LOR|) or with total coverage (d37_cov+stmv_cov)? Compare Pearson correlations with -log10(p).",effect=0.978; coverage=-0.181; stronger=effect_size,KEYED_MIXED_LIST,Statistical Metrics & Significance
